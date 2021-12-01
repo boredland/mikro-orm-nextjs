@@ -359,21 +359,21 @@
     mikro-orm "^5.0.0-dev.527+28e83ef936"
     reflect-metadata "0.1.13"
 
-"@mikro-orm/knex@^5.0.0-dev.527+28e83ef936":
-  version "5.0.0-dev.527"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-5.0.0-dev.527.tgz#33774197fdd0fd938c09e3d30025b3e40c7d7ebf"
-  integrity sha512-wIw7/T8XeaZn4e7ZKJ74yW/yBuOQIHrPwLF2fmHxakzRLF/NUlcJgNcuojPVXZimM2kkrXbY5BYWuQ2GahoZCw==
+"@mikro-orm/knex@^5.0.0-dev.540+84b5d1b1b8":
+  version "5.0.0-dev.540"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-5.0.0-dev.540.tgz#0ca83bf9c81719b935a9e88e8273dc831276a670"
+  integrity sha512-iDceIFxHxldvrWfjPxF/mGxT5FuBWzdMoIpvgFEhipptU5aGXqXtbBdJcTqUDur+ECz1QQc5OrxQ+Rp3z/vnNA==
   dependencies:
     fs-extra "10.0.0"
     knex "0.95.14"
     sqlstring "2.3.2"
 
-"@mikro-orm/sqlite@^5.0.0-dev.527":
-  version "5.0.0-dev.527"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/sqlite/-/sqlite-5.0.0-dev.527.tgz#9ebba3ab291ce6675975d65b081cc91a05759a55"
-  integrity sha512-3SLX+i0fj+/aW3/cw/Dx7mnWWV5/nF5XwgRqNT1zEpuYPP7T04u5JNyJUg+l6aabHtVaA6u6u18KY2s7mEkitQ==
+"@mikro-orm/sqlite@^5.0.0-dev.540":
+  version "5.0.0-dev.540"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/sqlite/-/sqlite-5.0.0-dev.540.tgz#ccc91ae7715afa92db5dfb1e18b9755d8e6d85a3"
+  integrity sha512-WDvBJI7FjDG9L7JvjK94BrPLZ82XixDHM0XiVjxlKIYoG7U0+ENeqzaryaRjPqE7klPLismAMrMcXzmhiwatuA==
   dependencies:
-    "@mikro-orm/knex" "^5.0.0-dev.527+28e83ef936"
+    "@mikro-orm/knex" "^5.0.0-dev.540+84b5d1b1b8"
     fs-extra "10.0.0"
     sqlite3 "5.0.2"
     sqlstring-sqlite "0.1.1"

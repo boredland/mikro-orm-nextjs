@@ -346,17 +346,17 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@mikro-orm/core@^5.0.0-dev.527":
-  version "5.0.0-dev.527"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-5.0.0-dev.527.tgz#5fc290ff7ec5e9768ded5eb84de312d4bad0d09a"
-  integrity sha512-aqYLYTP6H98A5kMgxgofTZTwce0nFx20+GSeWt2MJsDRwX8LdoXVT7dqmRshCsVuhAG5Im4dH4UiTYcG9rRRZw==
+"@mikro-orm/core@^5.0.0-rc.1":
+  version "5.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-5.0.0-rc.1.tgz#30e1827d1fd041aaad1fe8eb8a6437c002297560"
+  integrity sha512-7C+PPVLI4es89Do65yVogq3md+/XK/MqHJj+hntwyxr8FPiVXqehZPuxLplnuN99qu6HWWoIZid37gKSo7BfAQ==
   dependencies:
     clone "2.1.2"
-    dotenv "10.0.0"
+    dotenv "14.3.2"
     escaya "0.0.61"
     fs-extra "10.0.0"
     globby "11.0.4"
-    mikro-orm "^5.0.0-dev.527+28e83ef936"
+    mikro-orm "^5.0.0-rc.1"
     reflect-metadata "0.1.13"
 
 "@mikro-orm/knex@^5.0.0-dev.599+460a6d52bd":
@@ -1421,10 +1421,10 @@ dotenv-flow@^3.2.0:
   dependencies:
     dotenv "^8.0.0"
 
-dotenv@10.0.0:
-  version "10.0.0"
-  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-10.0.0.tgz#3d4227b8fb95f81096cdd2b66653fb2c7085ba81"
-  integrity sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q==
+dotenv@14.3.2:
+  version "14.3.2"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-14.3.2.tgz#7c30b3a5f777c79a3429cb2db358eef6751e8369"
+  integrity sha512-vwEppIphpFdvaMCaHfCEv9IgwcxMljMw2TnAQBB4VWPvzXQLTb82jwmdOKzlEVUL3gNFT4l4TPKO+Bn+sqcrVQ==
 
 dotenv@^8.0.0:
   version "8.6.0"
@@ -2672,10 +2672,10 @@ micromatch@^4.0.4:
     braces "^3.0.1"
     picomatch "^2.2.3"
 
-mikro-orm@^5.0.0-dev.527+28e83ef936:
-  version "5.0.0-dev.527"
-  resolved "https://registry.yarnpkg.com/mikro-orm/-/mikro-orm-5.0.0-dev.527.tgz#e4e019cbe2df00b0ff5df402cba8a136fb16d2c9"
-  integrity sha512-FpXInX9YWNV8P25QcndCJTeAIMmpwDtfCXbRSaSn+Dnu45P0jTMggmwpxbQGiha7WifARVJZA1VLPt5Ne8N8tA==
+mikro-orm@^5.0.0-rc.1:
+  version "5.0.0-rc.1"
+  resolved "https://registry.yarnpkg.com/mikro-orm/-/mikro-orm-5.0.0-rc.1.tgz#28b713334232a874a80560e58b4c6ed980facff5"
+  integrity sha512-T092waw4rXdAstU/yLyiCLBf7LywPjH/SU2TVNmURoUfDRQw2h+pWU3OR7/iyEVKtfT/VYzz1GaEzzwKtbZnSA==
 
 miller-rabin@^4.0.0:
   version "4.0.1"

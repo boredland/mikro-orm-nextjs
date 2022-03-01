@@ -58,16 +58,16 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.1.tgz#b520529ec21d8e5945a1851dfd1c32e94e39ff45"
   integrity sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==
 
-"@mikro-orm/core@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-5.0.2.tgz#6a671686e1f7c9457b328d7800aa60eaab0ab917"
-  integrity sha512-cWCOOzOIhnhl2QmVpf2xoiZNhVn4Ak15nCZPT8wlD0aJe9K45MpWuIoDEJCet8l2tPwBWSWN0CO1zHdATOmaxQ==
+"@mikro-orm/core@5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/core/-/core-5.0.5.tgz#f8099975c159bd8f3719108d50e37ff9a3cd8bcd"
+  integrity sha512-mXjGU33lKvH2hhvONZ6sc+H88H9ZtzoaTKXJAFT3ss7bQ3ab24t026RjkuIJV0HbgHnhGD+3vieUXqq7t12BYQ==
   dependencies:
     dotenv "16.0.0"
     escaya "0.0.61"
-    fs-extra "10.0.0"
+    fs-extra "10.0.1"
     globby "11.0.4"
-    mikro-orm "^5.0.0"
+    mikro-orm "5.0.5"
     reflect-metadata "0.1.13"
 
 "@mikro-orm/knex@^5.0.2":
@@ -941,6 +941,15 @@ fs-extra@10.0.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
+fs-extra@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.1.tgz#27de43b4320e833f6867cc044bfce29fdf0ef3b8"
+  integrity sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -1373,10 +1382,10 @@ micromatch@^4.0.4:
     braces "^3.0.1"
     picomatch "^2.2.3"
 
-mikro-orm@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/mikro-orm/-/mikro-orm-5.0.0.tgz#5ab8b74ce4ae3dc502e004ab62b9d5639d0da562"
-  integrity sha512-uEZPmlWEmzCTYKGQfOukR/LtHJc9JxeP8d4nLZJh4ucuQueaJ7QK1Eo0KLC69SoB9xIV+HdlrFMzh31mtfUJTQ==
+mikro-orm@5.0.5:
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/mikro-orm/-/mikro-orm-5.0.5.tgz#49d28071e976869209a4fc75322538ece66afb1f"
+  integrity sha512-D6EzRgNmr9zjWFhjik5R+pPiaIRUInzSltAx8UzKhE9LWnUg7S8dNB/AalssHt2Wh3M8TgQcZl0DATEaNHFo8w==
 
 minimatch@^3.0.4:
   version "3.0.4"

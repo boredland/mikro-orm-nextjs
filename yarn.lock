@@ -70,23 +70,23 @@
     mikro-orm "^5.0.0"
     reflect-metadata "0.1.13"
 
-"@mikro-orm/knex@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-5.0.2.tgz#6a197900089bb7cbd9098cea78d0bc2aa3543d64"
-  integrity sha512-C1uq5qNctpFgBZ630UlCO6xML/TwfAWo7VYGBQPxW1Zg/13XHc0Y22GZg0xT0tzsA/lw9U6GlZ2wVHMqYnm4CQ==
+"@mikro-orm/knex@^5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-5.0.5.tgz#baf3273e405cfcde3ec5d95b444899bc41afb34a"
+  integrity sha512-dhdqpd0MbaCpVFAeJeQsrskx/djaWGq/DVIn4tpo9xD8DF0b+FU4ejWpU4DdLlWNakvVRt4zfp8tw1WH27BusQ==
   dependencies:
-    fs-extra "10.0.0"
+    fs-extra "10.0.1"
     knex "1.0.3"
     sqlstring "2.3.2"
 
-"@mikro-orm/sqlite@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/sqlite/-/sqlite-5.0.2.tgz#36c8346027a10f5cc041f5ab1fb73749cbe01aab"
-  integrity sha512-FOKDgd64E4TsWEnkixnSyQy0pev+dE8Wo+purhllobkpkRLuN8iU5O5uniwGzddooCVawNE5S52w6loTSeni2A==
+"@mikro-orm/sqlite@5.0.5":
+  version "5.0.5"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/sqlite/-/sqlite-5.0.5.tgz#1fd6fdf0589f5c4d51c4e7495393dd2217466461"
+  integrity sha512-qkJ/9xRZn9dNL9cb/cTGU36hZBVZ7itKzLs3l5PvhSU4w8WJYDwOvxw3X5RN0WV/aLDOFXemKeZskP/x8Jy+VQ==
   dependencies:
-    "@mikro-orm/knex" "^5.0.2"
+    "@mikro-orm/knex" "^5.0.5"
     "@vscode/sqlite3" "5.0.7"
-    fs-extra "10.0.0"
+    fs-extra "10.0.1"
     sqlstring-sqlite "0.1.1"
 
 "@next/env@12.1.0":
@@ -936,6 +936,15 @@ fs-extra@10.0.0:
   version "10.0.0"
   resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.0.tgz#9ff61b655dde53fb34a82df84bb214ce802e17c1"
   integrity sha512-C5owb14u9eJwizKGdchcDUQeFtlSHHthBk8pbX9Vc1PFZrLombudjDnNns88aYslCyF6IY5SUw3Roz6xShcEIQ==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
+fs-extra@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.1.tgz#27de43b4320e833f6867cc044bfce29fdf0ef3b8"
+  integrity sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==
   dependencies:
     graceful-fs "^4.2.0"
     jsonfile "^6.0.1"

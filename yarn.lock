@@ -70,23 +70,23 @@
     mikro-orm "^5.0.0"
     reflect-metadata "0.1.13"
 
-"@mikro-orm/knex@^5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-5.0.2.tgz#6a197900089bb7cbd9098cea78d0bc2aa3543d64"
-  integrity sha512-C1uq5qNctpFgBZ630UlCO6xML/TwfAWo7VYGBQPxW1Zg/13XHc0Y22GZg0xT0tzsA/lw9U6GlZ2wVHMqYnm4CQ==
+"@mikro-orm/knex@^5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/knex/-/knex-5.1.1.tgz#aa758b9360664965c75d01bf643c8211c83357a1"
+  integrity sha512-sNQwbBVb9Ak6V9t+eOLoQSNyf4euN3hU7ZgZiSy8ki7jNXB3H+w4KGFc6Zg7n3Od6v6Mo3uHK2djeSojxxvqVQ==
   dependencies:
-    fs-extra "10.0.0"
-    knex "1.0.3"
-    sqlstring "2.3.2"
+    fs-extra "10.0.1"
+    knex "1.0.4"
+    sqlstring "2.3.3"
 
-"@mikro-orm/sqlite@5.0.2":
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/@mikro-orm/sqlite/-/sqlite-5.0.2.tgz#36c8346027a10f5cc041f5ab1fb73749cbe01aab"
-  integrity sha512-FOKDgd64E4TsWEnkixnSyQy0pev+dE8Wo+purhllobkpkRLuN8iU5O5uniwGzddooCVawNE5S52w6loTSeni2A==
+"@mikro-orm/sqlite@5.1.1":
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/@mikro-orm/sqlite/-/sqlite-5.1.1.tgz#936d9c329be926201ef93e469f4d4d55d33cc6ad"
+  integrity sha512-4mY7ELklqPv+4a+VkV3hwOuavMmdNZNcE9gT0wnHOyFMKQjDRMHjF9mQEwpz8CowaPf+qp7pjTfkHD1YmkyRYA==
   dependencies:
-    "@mikro-orm/knex" "^5.0.2"
+    "@mikro-orm/knex" "^5.1.1"
     "@vscode/sqlite3" "5.0.7"
-    fs-extra "10.0.0"
+    fs-extra "10.0.1"
     sqlstring-sqlite "0.1.1"
 
 "@next/env@12.1.0":
@@ -941,6 +941,15 @@ fs-extra@10.0.0:
     jsonfile "^6.0.1"
     universalify "^2.0.0"
 
+fs-extra@10.0.1:
+  version "10.0.1"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-10.0.1.tgz#27de43b4320e833f6867cc044bfce29fdf0ef3b8"
+  integrity sha512-NbdoVMZso2Lsrn/QwLXOy6rm0ufY2zEOKCDzJR/0kBsb0E6qed0P3iYK+Ath3BfvXEeu4JhEtXLgILx5psUfag==
+  dependencies:
+    graceful-fs "^4.2.0"
+    jsonfile "^6.0.1"
+    universalify "^2.0.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -1284,10 +1293,10 @@ jsonfile@^6.0.1:
     array-includes "^3.1.3"
     object.assign "^4.1.2"
 
-knex@1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/knex/-/knex-1.0.3.tgz#a5f97aa98e5e036cfd0209a90d53b2a411280e84"
-  integrity sha512-rY1T7cgTQGHAUD9TshMka37bd+SEK+koPXXvZQEIoE8yjJ/E8ShsenaAmr3oaNNzqXuKD/SC0qlYtp7Js8tAXA==
+knex@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/knex/-/knex-1.0.4.tgz#b9db3c60d0e3a4af37239bb879244e50eb748124"
+  integrity sha512-cMQ81fpkVmr4ia20BtyrD3oPere/ir/Q6IGLAgcREKOzRVhMsasQ4nx1VQuDRJjqq6oK5kfcxmvWoYkHKrnuMA==
   dependencies:
     colorette "2.0.16"
     commander "^8.3.0"
@@ -1774,10 +1783,10 @@ sqlstring-sqlite@0.1.1:
   resolved "https://registry.yarnpkg.com/sqlstring-sqlite/-/sqlstring-sqlite-0.1.1.tgz#c8c61810663f2e59a6b0d737b70a8752bda3a078"
   integrity sha1-yMYYEGY/LlmmsNc3twqHUr2joHg=
 
-sqlstring@2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/sqlstring/-/sqlstring-2.3.2.tgz#cdae7169389a1375b18e885f2e60b3e460809514"
-  integrity sha512-vF4ZbYdKS8OnoJAWBmMxCQDkiEBkGQYU7UZPtL8flbDRSNkhaXvRJ279ZtI6M+zDaQovVU4tuRgzK5fVhvFAhg==
+sqlstring@2.3.3:
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/sqlstring/-/sqlstring-2.3.3.tgz#2ddc21f03bce2c387ed60680e739922c65751d0c"
+  integrity sha512-qC9iz2FlN7DQl3+wjwn3802RTyjCx7sDvfQEXchwa6CWOx07/WVfh91gBmQ9fahw8snwGEWU3xGzOt4tFyHLxg==
 
 string.prototype.matchall@^4.0.6:
   version "4.0.6"

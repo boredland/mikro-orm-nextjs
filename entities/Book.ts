@@ -15,6 +15,6 @@ export class Book {
     @Property()
     title!: string;
 
-    @ManyToOne({ entity: () => User })
+    @ManyToOne({ entity: () => User, wrappedReference: true })
     user!: Reference<User>;
 }

@@ -1,39 +1,16 @@
 import {
   PrimaryKey,
   Entity,
-  Property,  
-  Unique,
-  OneToMany,
-  Collection,
-  Cascade,
+  Property,
+  types,
 } from "@mikro-orm/core";
-import { Book } from "./Book";
+import { randomUUID } from "node:crypto"
 
 @Entity()
 export class User {
-  @PrimaryKey()
-  id!: number;
+  @PrimaryKey({ type: types.string })
+  id = randomUUID();
 
-  @Property()
-  name!: string;
-
-  @Property()
-  @Unique()
-  email: string;
-
-  @Property({ nullable: true })
-  born?: Date;
-
-  constructor(name: string, email: string) {
-    this.name = name;
-    this.email = email;
-  }
-
-  @OneToMany({
-    entity: () => Book,
-    mappedBy: (book) => book.user,
-    orphanRemoval: true,
-    cascade: [Cascade.ALL],
-  })
-  books = new Collection<Book>(this);
+  @Property({ type: types.json })
+  field!: { value: string }
 }

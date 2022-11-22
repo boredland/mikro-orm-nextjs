@@ -1,7 +1,5 @@
-import Chance from 'chance';
 import { NextApiHandler } from 'next/dist/shared/lib/utils';
 import 'reflect-metadata';
-import { Book } from '../../entities/Book';
 import { User } from "../../entities/User";
 import getEM from '../../utils/getEM';
 import withORM from '../../utils/withORM';
@@ -11,19 +9,22 @@ const handler: NextApiHandler = async (req, res) => {
 
   console.log(`context-specific em-ID: ${em.id}`);
 
-  const chance = new Chance();
-  const user = new User(chance.name(),chance.email());
-  user.born = chance.birthday();
-  await em.persistAndFlush(user);
-
-  const book = new Book()
-  book.title = chance.sentence();
-  user.books.add(book);
-  await em.persistAndFlush(user);
-
   res.statusCode = 200;
   res.setHeader("Content-Type", "application/json");
-  res.end(JSON.stringify(user));
+  
+  const userToPersist = em.create(User,new User());
+  userToPersist.field = { value: "works" };
+  await em.persistAndFlush(userToPersist);
+  const queryPersisted = await em.findOne(User, { field: { value: "works"} });
+  console.log("found", queryPersisted)
+
+  const userToUpsert = em.create(User, new User());
+  userToUpsert.field = { value: "doesnt"};
+  await em.upsert(userToUpsert);
+  const queryUpserted = await em.findOne(User, { field: { value: "doesnt"} });
+  console.log("not found", queryUpserted)
+
+  res.end(JSON.stringify(userToPersist));
 };
 
 export default withORM(handler);

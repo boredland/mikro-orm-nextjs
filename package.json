@@ -15,7 +15,9 @@
     "start": "next start"
   },
   "dependencies": {
+    "@mikro-orm/cli": "5.5.3",
     "@mikro-orm/core": "5.5.3",
+    "@mikro-orm/migrations": "5.5.3",
     "@mikro-orm/sqlite": "5.5.3",
     "chance": "1.1.8",
     "dotenv-flow": "3.2.0",
